@@ -4,12 +4,13 @@ export default function Counter() {
 
   const increment = () => {
    setCounter(counter + 1);
-  }
+  } 
+
   return (
     <div>
       <h2>{counter}</h2>
       <button type="button" onClick={increment}>
-        Incremend
+        Incremend +1
       </button>
     </div>
   )
